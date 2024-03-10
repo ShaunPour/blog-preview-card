@@ -1,3 +1,9 @@
+body {
+    font-family: 'Figtree';
+    font-size: 16px;
+    font-weight: 500;
+}
+
 body,.title {
     background: hsl(47, 88%, 63%);
 }
@@ -11,8 +17,11 @@ body,.card {
 
 .card {
     background: #fff;
-    width: 87vw;
-    margin-top: 10vh;
+    width: 70vw;
+    margin-top: 5vh;
+    position: relative;
+    right: 2.5em;
+    border: 1px solid black;
 }
 
 .title-img {
@@ -29,11 +38,24 @@ header,main,footer {
     border-radius: 10px;
 }
 
+.data-title {
+    font-size: 12px;
+}
+
+.subtitle {
+    font-weight: 800;
+}
+
 .title {
-    padding: 3px 15px;
+    padding: 3px 15px 3px 6px;
     border-radius: 2px;
     font-weight: bold;
     width: 15vw;
+}
+
+.main-txt {
+    color: hsl(0, 0%, 50%);
+    font-size: 14px;
 }
 
 footer {
@@ -41,7 +63,8 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    left: -5em;
+    left: -3.5em;
+    margin-bottom: 2em;
 }
 
 .user {
