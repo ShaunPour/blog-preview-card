@@ -17,11 +17,13 @@ body,.card {
 
 .card {
     background: #fff;
-    width: 70vw;
+    width: 90vw;
     margin-top: 5vh;
+    top: 4em;
+    right: 5px;
     position: relative;
-    right: 2.5em;
     border: 1px solid black;
+    box-shadow: 10px 10px;
 }
 
 .title-img {
@@ -63,11 +65,27 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    left: -3.5em;
+    font-weight: bold;
+    left: -5.5em;
     margin-bottom: 2em;
 }
 
 .user {
     width: 15%;
     margin-right: 15px;
+}
+
+@media (min-width: 1440px) {
+    .card {
+        width: 25%;
+        top: 10em;
+    }
+    .title {
+        width: 5vw;
+        padding: 3px 2px 3px 10px;
+    }
+    .main-txt {
+        width: 75%;
+        font-size: 16px;
+    }
 }
