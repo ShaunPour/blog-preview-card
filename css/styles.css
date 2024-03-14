@@ -18,6 +18,7 @@ body,.card {
 .card {
     background: #fff;
     width: 90vw;
+    max-width: 336px;
     margin-top: 5vh;
     top: 4em;
     right: 5px;
