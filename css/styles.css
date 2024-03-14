@@ -76,6 +76,11 @@ footer {
     margin-right: 15px;
 }
 
+#subtitleId:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
 @media (min-width: 1440px) {
     .card {
         width: 25%;
