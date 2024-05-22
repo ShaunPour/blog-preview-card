@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Code Repository](https://github.com/DarkPhoenixNinja92/blog-preview-card)
-- Live Site URL: [Github Pages Live Site](https://darkphoenixninja92.github.io/blog-preview-card)
+- Solution URL: [Github Code Repository](https://github.com/ShaunPour/blog-preview-card)
+- Live Site URL: [Github Pages Live Site](https://ShaunPour.github.io/blog-preview-card)
 
 ## My process
 
